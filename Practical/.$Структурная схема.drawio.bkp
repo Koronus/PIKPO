@@ -1,0 +1,96 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Страница-1" id="OjZ_swVfXXSEYD3Lnbb2">
+    <mxGraphModel dx="1410" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="КЛИЕНТСКИЙ СЛОЙ (Frontend)" vertex="1">
+          <mxGeometry height="130" width="1080" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="Веб-браузер сотрудника&#xa;(Прохождение опросов)" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="SPA на React + TypeScript&#xa;(Визуальный конструктор, Дашборды)" vertex="1">
+          <mxGeometry height="60" width="280" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="Почтовый клиент&#xa;(Получение ссылок)" vertex="1">
+          <mxGeometry height="60" width="220" x="820" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;align=center;" value="ВЕБ-СЕРВЕР И ШЛЮЗ (Nginx)" vertex="1">
+          <mxGeometry height="50" width="480" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" value="Раздача статики (React)" vertex="1">
+          <mxGeometry height="40" width="220" x="60" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" value="Проксирование запросов к API (REST)" vertex="1">
+          <mxGeometry height="40" width="240" x="880" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" value="СЕРВЕРНАЯ ЧАСТЬ / ЯДРО (Backend - ASP.NET Core 8)" vertex="1">
+          <mxGeometry height="280" width="1080" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1" value="API-Контроллеры (REST)" vertex="1">
+          <mxGeometry height="40" width="200" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" value="Слой безопасности&#xa;(JWT, RBAC, Валидация ссылок)" vertex="1">
+          <mxGeometry height="50" width="200" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1" value="Модуль управления опросами&#xa;(Конструктор, Шаблоны)" vertex="1">
+          <mxGeometry height="50" width="220" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1" value="Движок прохождения&#xa;(Метод 360, Агрегация)" vertex="1">
+          <mxGeometry height="50" width="220" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1" value="Модуль аналитики и экспорта&#xa;(Генерация DOCX/PDF)" vertex="1">
+          <mxGeometry height="50" width="220" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="Агент событий&#xa;(Автосоздание опросов)" vertex="1">
+          <mxGeometry height="50" width="200" x="620" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1" value="Импорт иерархии&#xa;(Парсинг Excel, Дерево)" vertex="1">
+          <mxGeometry height="50" width="200" x="620" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1" value="Модуль рассылки&#xa;(SMTP, Email-уведомления)" vertex="1">
+          <mxGeometry height="50" width="200" x="620" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Фоновый планировщик (Hosted Service)&#xa;- Автоудаление по Cron (FR-08)&#xa;- Retry policy для рассылок (NFR-03)" vertex="1">
+          <mxGeometry height="80" width="170" x="880" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" value="СЛОЙ ХРАНЕНИЯ ДАННЫХ (Data Layer)" vertex="1">
+          <mxGeometry height="120" width="1080" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="19" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#9673a6;" value="Реляционная БД&#xa;(PostgreSQL)&#xa;Сотрудники, Опросы, Ответы, Аудит" vertex="1">
+          <mxGeometry height="70" width="200" x="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="19" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#9673a6;" value="Файловое хранилище&#xa;(Локальное/Volume)&#xa;Сгенерированные отчеты, Excel" vertex="1">
+          <mxGeometry height="70" width="220" x="650" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#666666;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#666666;" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#9673a6;dashed=1;" target="20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" source="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#b85450;" target="20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="600" />
+              <mxPoint x="20" y="600" />
+              <mxPoint x="20" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" connectable="0" parent="25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SQL" vertex="1">
+          <mxGeometry relative="1" x="-0.8905" y="4" as="geometry">
+            <mxPoint x="-31" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" source="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#82b366;" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
